@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	margin: 0;
+}
+
+.header {
+	background-image: url("../images/header.jpg");
+	background-position: -300px -200px;
+	/*width: 930px;*/
+	height: 530px;
+	
+}
+
+.main_width {
+	margin:0 auto;
+	width: 930px;   /*  <-------- */
+}
+
+.menu {
+	float: right;
+}
+.menu li{
+	display: inline-block;
+	color: white;
+	font-size: 14px;
+	font-family: 'open_sansregular';
+	margin-right: 20px;
+}
+
+.sub_lead {
+	font-family: 'open_sansregular';
+	font-size: 24px;
+	color: white;
+	margin-top: 60px;
+}
+.lead {
+	font-family: 'open_sansregular';
+	font-size: 60px;
+	color: white;
+	line-height: 60px;
+}
+
+.CTA {
+	display: block;
+	font-family: 'open_sansregular';
+	font-size: 16px;
+	width: 140px;
+	height: 40px;
+	color: white;
+	background: #e92121;
+	text-align: center;
+	line-height: 40px;
+}
+
+.content_lead {
+	margin-top: 120px;
+	float: left;
+	font-family: 'open_sansregular';
+	font-size: 48px;
+	line-height: 48px;
+	color: #464646;
+}
+
+.content_text {
+	font-family: 'open_sansregular';
+	font-size: 16px;
+	color: #b7b7b7;
+	margin: 50px 0px;
+	text-align: justify;
+}
+.float_right {
+	float: right;
+	width: 500px;
+}
+
+.footer{
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-position: 240px 30px;
+	clear: both;
+	background-color: black;
+	/*width: 930px;*/
+	height: 200px;
+	margin: 0 auto;
+}
+
+.footer_menu li{
+	color: #474747;
+	font-size: 16px;
+	font-family: 'open_sansregular';
+	margin-right: 20px;
+	list-style-type: none;
+}
+.footer_menu {
+	margin-top: 110px;
+	float: left;
+
+}
+
+span {
+	text-decoration: underline;
+}
+
+.copy {
+	margin-top: 110px;
+	float: right;
+	font-family: 'open_sansregular';
+	color: #474747;
+	text-align: right;
+	color: #353434
+}
